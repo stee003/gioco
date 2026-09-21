@@ -12,9 +12,13 @@ original.*
 
 ```bash
 npm run serve        # → http://localhost:8080
+npm run serve -- 3000  # different port
 ```
 
-No build step, no dependencies — plain ES modules and Canvas 2D.
+No build step, no dependencies — plain ES modules and Canvas 2D. The dev
+server is `tools/serve.js`, a ~150-line static file server on Node's built-in
+`http`, so it needs nothing but **Node ≥ 18** and works the same on Windows,
+macOS and Linux (no Python, no `npx` download).
 
 ## Controls (default, remappable in Settings)
 
