@@ -1,0 +1,13 @@
+{
+  "name": "the-long-quiet",
+  "version": "0.1.0",
+  "description": "THE LONG QUIET \u2014 an original hand-drawn atmospheric Metroidvania. A song beneath the world.",
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "check": "node tools/check.js",
+    "sim": "node tools/sim.js",
+    "boot": "node tools/boot.js"
+  },
+  "license": "_proprietary-draft"
+}
